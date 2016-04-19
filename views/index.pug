@@ -1,0 +1,15 @@
+include ./header.pug
+
+h1(class="text-center top-space") What's your ZIP code?
+
+form
+	div(class="row")
+		input(type="number" class="col-xs-12  col-md-2 col-md-offset-5" name="zip" placeholder="12345" autofocus required)
+	div(class="row")
+		input(type="submit" value="Get Weather" class="btn btn-default col-xs-12  col-md-2 col-md-offset-5 space")
+
+footer
+	h3(class="text-center") Powered by Forecast.io
+
+script(src="https://code.jquery.com/jquery-1.12.3.min.js"   integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="   crossorigin="anonymous")
+script(src="/js.js")
